@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicBox - ESP32-S3 Music Display System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="MusicBox">MusicBox</h1>
+                <p class="tagline">ESP32-S3 Music Display System</p>
+                <p class="description">Transform your music listening experience with a beautiful, real-time display that shows what's playing across all your favorite apps - Spotify, Chrome, VLC, and more.</p>
+                <div class="hero-cta">
+                    <a href="#download" class="cta-button">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Photos Section -->
+    <section class="photos">
+        <div class="container">
+            <h2>See It In Action</h2>
+            <p class="section-subtitle">Experience the MusicBox display in all its glory</p>
+
+            <div class="gallery">
+                <div class="gallery-item gallery-large">
+                    <div class="gallery-image">
+                        <img src="images/8.png" alt="MusicBox Featured View">
+                        <div class="gallery-content">
+                            <h3>Featured View</h3>
+                            <p>Main product showcase</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/2.png" alt="MusicBox Display in Action">
+                        <div class="gallery-content">
+                            <h3>Display in Action</h3>
+                            <p>Real-time music tracking</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/4.png" alt="MusicBox Setup & Connection">
+                        <div class="gallery-content">
+                            <h3>Setup & Connection</h3>
+                            <p>Easy plug-and-play installation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/3.png" alt="MusicBox Hardware Details">
+                        <div class="gallery-content">
+                            <h3>Hardware Details</h3>
+                            <p>ESP32-S3 & TFT display</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/1.png" alt="MusicBox Desktop Integration">
+                        <div class="gallery-content">
+                            <h3>Desktop Integration</h3>
+                            <p>System tray & controls</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/9.png" alt="MusicBox Beautiful UI">
+                        <div class="gallery-content">
+                            <h3>Beautiful UI</h3>
+                            <p>Clean, modern interface</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/7.png" alt="MusicBox Additional View">
+                        <div class="gallery-content">
+                            <h3>In Your Space</h3>
+                            <p>Fits any environment</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/5.png" alt="MusicBox Extra View">
+                        <div class="gallery-content">
+                            <h3>More Views</h3>
+                            <p>See more angles</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/6.png" alt="MusicBox Additional View">
+                        <div class="gallery-content">
+                            <h3>Perfect Fit</h3>
+                            <p>Seamless integration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Auto-Detect ESP32</h3>
+                    <p>Automatically finds and connects to your device - no configuration needed</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Zero Config</h3>
+                    <p>Just run and forget - works out of the box with no setup required</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎵</div>
+                    <h3>Universal Support</h3>
+                    <p>Works with Spotify, Chrome, VLC, and any app that supports Windows media controls</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🖥️</div>
+                    <h3>System Tray Integration</h3>
+                    <p>Runs quietly in the background with easy access from system tray</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Auto-Start</h3>
+                    <p>Optional startup with Windows - set it once and never think about it again</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📦</div>
+                    <h3>Portable</h3>
+                    <p>Single .exe file with no installation required - completely portable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketing Section -->
+    <section class="marketing">
+        <div class="container">
+            <h2>Why MusicBox?</h2>
+            <div class="marketing-content">
+                <div class="marketing-item">
+                    <h3>For Music Lovers</h3>
+                    <p>Stop alt-tabbing to check what's playing. MusicBox gives you a dedicated hardware display showing your current track in real-time. Whether it's Spotify, YouTube, or any media player—see artist names, track titles, and album info at a glance without interrupting your flow.</p>
+                </div>
+                <div class="marketing-item">
+                    <h3>For Tech Enthusiasts</h3>
+                    <p>The perfect addition to your minimalist desk setup. A sleek, compact display that sits beautifully alongside your keyboard and monitor, showing what's playing without cluttering your main screens. Clean cable management with a single USB connection—fits naturally into any modern workspace aesthetic.</p>
+                </div>
+                <div class="marketing-item">
+                    <h3>For Gamers</h3>
+                    <p>Keep your eyes on the game while your music info stays visible on a separate physical display. Perfect for streamers who want viewers to see what's playing without screen overlays cluttering your gameplay. Clean setup, professional look, zero performance impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructions Section -->
+    <section class="instructions">
+        <div class="container">
+            <h2>How to Use</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Download the Client</h3>
+                    <p>Choose your operating system and download the MusicBox client application. The Windows version is ready now, with macOS and Linux coming soon.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Connect Your ESP32-S3</h3>
+                    <p>Plug in your MusicBox ESP32-S3 device via USB. The client will automatically detect and connect to it. No drivers or configuration needed!</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Run and Enjoy</h3>
+                    <p>Double-click the downloaded file to launch MusicBox. It will run in your system tray and automatically track whatever music you're playing. That's it!</p>
+                </div>
+            </div>
+
+            <div class="additional-info">
+                <h3>First Run Setup</h3>
+                <p>On first launch, MusicBox will ask if you want to start automatically with Windows. Choose yes if you want it to run in the background all the time (recommended).</p>
+
+                <h3>System Tray Controls</h3>
+                <p>Access MusicBox from your system tray to:</p>
+                <ul>
+                    <li>View current track and system status</li>
+                    <li>Restart the service if needed</li>
+                    <li>Access log files for troubleshooting</li>
+                    <li>Toggle auto-start with Windows</li>
+                    <li>Exit the application</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <h2>Download MusicBox</h2>
+            <p class="download-subtitle">Choose your platform and get started in seconds</p>
+
+            <div class="download-buttons">
+                <a href="https://github.com/skrix/musicbox/releases/latest/download/MusicBox.exe" class="download-btn primary" download>
+                    <span class="platform-icon">🪟</span>
+                    <div class="btn-content">
+                        <span class="platform">Windows</span>
+                        <span class="details">Portable .exe • Windows 10/11</span>
+                    </div>
+                </a>
+
+                <button class="download-btn disabled" disabled>
+                    <span class="platform-icon">🍎</span>
+                    <div class="btn-content">
+                        <span class="platform">macOS</span>
+                        <span class="details">Coming Soon</span>
+                    </div>
+                </button>
+
+                <a href="https://github.com/skrix/musicbox/releases/latest/download/MusicBox" class="download-btn primary" download>
+                    <span class="platform-icon">🐧</span>
+                    <div class="btn-content">
+                        <span class="platform">Linux</span>
+                        <span class="details">Executable • Ubuntu/Debian</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MusicBox. ESP32-S3 Music Display System.</p>
+            <p class="tagline-footer">Elevate Your Music Experience</p>
+        </div>
+    </footer>
+</body>
+</html>
