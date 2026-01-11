@@ -1,63 +1,91 @@
-# MusicBox Product Page
+# MusicBox
 
-Static product page for the MusicBox ESP32-S3 Music Display System.
+**ESP32-S3 Music Display System**
 
-## GitHub Pages Setup
+Transform your music listening experience with a beautiful, real-time display that shows what's playing across all your favorite apps - Spotify, Chrome, VLC, and more.
 
-To deploy this site on GitHub Pages:
+![MusicBox Display](images/8.png)
 
-1. **Push to GitHub** (if not already done):
-   ```bash
-   git add web/
-   git commit -m "Add product page"
-   git push origin main
-   ```
+## See It In Action
 
-2. **Configure GitHub Pages**:
-   - Go to your repository on GitHub
-   - Navigate to Settings → Pages
-   - Under "Source", select "Deploy from a branch"
-   - Under "Branch", select `main` and `/web` folder
-   - Click Save
+Experience the MusicBox display in all its glory through our [gallery of images](images/).
 
-3. **Access your site**:
-   - Your site will be available at: `https://yourusername.github.io/musicbox/`
-   - GitHub will automatically build and deploy when you push changes
+- **Display in Action** - Real-time music tracking
+- **Setup & Connection** - Easy plug-and-play installation
+- **Hardware Details** - ESP32-S3 & TFT display
+- **Desktop Integration** - System tray & controls
+- **Beautiful UI** - Clean, modern interface
 
-## Alternative: Root Directory Deployment
+## Key Features
 
-If you prefer to deploy from the root directory:
+### 🔍 Auto-Detect ESP32
+Automatically finds and connects to your device - no configuration needed
 
-1. Move `web/index.html` and `web/styles.css` to the root directory
-2. Update the download link in `index.html` from `../windows/dist/MusicBox.exe` to `windows/dist/MusicBox.exe`
-3. In GitHub Pages settings, select `/` (root) instead of `/web`
+### ⚡ Zero Config
+Just run and forget - works out of the box with no setup required
 
-## Local Development
+### 🎵 Universal Support
+Works with Spotify, Chrome, VLC, and any app that supports Windows media controls
 
-To preview locally, simply open `index.html` in your browser or use a local server:
+### 🖥️ System Tray Integration
+Runs quietly in the background with easy access from system tray
 
-```bash
-# Using Python
-python -m http.server 8000
+### 🚀 Auto-Start
+Optional startup with Windows - set it once and never think about it again
 
-# Using Node.js
-npx serve
+### 📦 Portable
+Single .exe file with no installation required - completely portable
 
-# Then visit http://localhost:8000
-```
+## Why MusicBox?
 
-## Files
+### For Music Lovers
+Stop alt-tabbing to check what's playing. MusicBox gives you a dedicated hardware display showing your current track in real-time. Whether it's Spotify, YouTube, or any media player—see artist names, track titles, and album info at a glance without interrupting your flow.
 
-- `index.html` - Main product page
-- `styles.css` - Styling and responsive design
-- `.nojekyll` - Prevents Jekyll processing on GitHub Pages
+### For Tech Enthusiasts
+The perfect addition to your minimalist desk setup. A sleek, compact display that sits beautifully alongside your keyboard and monitor, showing what's playing without cluttering your main screens. Clean cable management with a single USB connection—fits naturally into any modern workspace aesthetic.
 
-## Updating Content
+### For Gamers
+Keep your eyes on the game while your music info stays visible on a separate physical display. Perfect for streamers who want viewers to see what's playing without screen overlays cluttering your gameplay. Clean setup, professional look, zero performance impact.
 
-To add product photos, replace the placeholder divs in the "Photos Section" with actual image tags:
+## How to Use
 
-```html
-<img src="path/to/photo.jpg" alt="Description">
-```
+### 1. Download the Client
+Choose your operating system and download the MusicBox client application. The Windows version is ready now, with macOS and Linux coming soon.
 
-To update links, modify the GitHub repository links in the footer section.
+### 2. Connect Your ESP32-S3
+Plug in your MusicBox ESP32-S3 device via USB. The client will automatically detect and connect to it. No drivers or configuration needed!
+
+### 3. Run and Enjoy
+Double-click the downloaded file to launch MusicBox. It will run in your system tray and automatically track whatever music you're playing. That's it!
+
+### First Run Setup
+On first launch, MusicBox will ask if you want to start automatically with Windows. Choose yes if you want it to run in the background all the time (recommended).
+
+### System Tray Controls
+Access MusicBox from your system tray to:
+- View current track and system status
+- Restart the service if needed
+- Access log files for troubleshooting
+- Toggle auto-start with Windows
+- Exit the application
+
+## Download MusicBox
+
+Choose your platform and get started in seconds:
+
+### 🪟 Windows
+**[Download for Windows](https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/windows/MusicBox.exe)**
+Portable .exe • Windows 10/11
+
+### 🍎 macOS
+Coming Soon
+
+### 🐧 Linux
+**[Download for Linux](https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/linux/MusicBox)**
+Executable • Ubuntu/Debian
+
+---
+
+*Elevate Your Music Experience*
+
+© 2024 MusicBox. ESP32-S3 Music Display System.
