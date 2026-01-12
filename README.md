@@ -1,91 +1,124 @@
 # MusicBox
 
-**ESP32-S3 Music Display System**
+**Your music – simply, lovely, beautifully**
 
-Transform your music listening experience with a beautiful, real-time display that shows what's playing across all your favorite apps - Spotify, Chrome, VLC, and more.
+A dedicated hardware display that shows what's playing in real-time. Works with Spotify, YouTube, VLC, and all your favorite apps.
 
-![MusicBox Display](images/8.png)
+[Download Now](#download-musicbox) | [Read the Guide](GUIDE.md)
+
+---
 
 ## See It In Action
 
-Experience the MusicBox display in all its glory through our [gallery of images](images/).
+| | |
+|---|---|
+| ![MusicBox display](images/8.png) | ![USB connection](images/4.png) |
+| Always Know What's Playing | Simple Connection |
+| ![Hardware](images/3.png) | ![Album art](images/9.png) |
+| Quality Hardware | Beautiful Display |
 
-- **Display in Action** - Real-time music tracking
-- **Setup & Connection** - Easy plug-and-play installation
-- **Hardware Details** - ESP32-S3 & TFT display
-- **Desktop Integration** - System tray & controls
-- **Beautiful UI** - Clean, modern interface
+---
 
-## Key Features
+## What is MusicBox?
 
-### 🔍 Auto-Detect ESP32
-Automatically finds and connects to your device - no configuration needed
+### 🎵 Universal Compatibility
+Works automatically with Spotify, YouTube, Chrome, VLC, and any app that uses your system's media controls. No manual configuration needed.
 
-### ⚡ Zero Config
-Just run and forget - works out of the box with no setup required
+### ⚡ Plug & Play Setup
+Connect your MusicBox device via USB and run the app. It automatically detects your device and starts displaying your music. That's it.
 
-### 🎵 Universal Support
-Works with Spotify, Chrome, VLC, and any app that supports Windows media controls
+### 🖥️ Runs in Background
+The app lives in your system tray, quietly sending track information to your display in real-time. Optionally starts with your computer.
 
-### 🖥️ System Tray Integration
-Runs quietly in the background with easy access from system tray
+---
 
-### 🚀 Auto-Start
-Optional startup with Windows - set it once and never think about it again
+## Who is MusicBox For?
 
-### 📦 Portable
-Single .exe file with no installation required - completely portable
+### 🎧 Music Lovers
+Stop alt-tabbing to check what's playing. Get a dedicated hardware display showing your current track in real-time—artist, title, and progress—all at a glance without interrupting your flow.
 
-## Why MusicBox?
+### 💻 Desk Setup Enthusiasts
+The perfect addition to your minimalist workspace. A sleek, compact display that complements your keyboard and monitor. Clean cable management with a single USB connection.
 
-### For Music Lovers
-Stop alt-tabbing to check what's playing. MusicBox gives you a dedicated hardware display showing your current track in real-time. Whether it's Spotify, YouTube, or any media player—see artist names, track titles, and album info at a glance without interrupting your flow.
+### 🎮 Gamers & Streamers
+Keep your eyes on the game while music info stays visible on a separate display. Perfect for streamers who want viewers to see what's playing without screen overlays.
 
-### For Tech Enthusiasts
-The perfect addition to your minimalist desk setup. A sleek, compact display that sits beautifully alongside your keyboard and monitor, showing what's playing without cluttering your main screens. Clean cable management with a single USB connection—fits naturally into any modern workspace aesthetic.
+---
 
-### For Gamers
-Keep your eyes on the game while your music info stays visible on a separate physical display. Perfect for streamers who want viewers to see what's playing without screen overlays cluttering your gameplay. Clean setup, professional look, zero performance impact.
+## Features
 
-## How to Use
+| Feature | Description |
+|---------|-------------|
+| 🔍 **Auto-Detect device** | Automatically finds and connects to your device when you plug it in—no port configuration needed |
+| ⚡ **Zero Config** | Just run and forget—works out of the box with no setup required |
+| 🎵 **Universal Support** | Works with Spotify, Chrome, VLC, and any app using system media controls |
+| 🖥️ **System Tray Integration** | Runs quietly in the background with easy access from your system tray |
+| 🚀 **Auto-Start** | Optionally starts with your computer—set it once and never think about it again |
+| 📦 **Fully Portable** | Single executable file with no installation—run from anywhere |
 
-### 1. Download the Client
-Choose your operating system and download the MusicBox client application. The Windows version is ready now, with macOS and Linux coming soon.
+---
 
-### 2. Connect Your ESP32-S3
-Plug in your MusicBox ESP32-S3 device via USB. The client will automatically detect and connect to it. No drivers or configuration needed!
+## Get Started in 3 Steps
 
-### 3. Run and Enjoy
-Double-click the downloaded file to launch MusicBox. It will run in your system tray and automatically track whatever music you're playing. That's it!
+### 1. Download & Run
+Download the app for your platform and double-click to run. No installation needed.
 
-### First Run Setup
-On first launch, MusicBox will ask if you want to start automatically with Windows. Choose yes if you want it to run in the background all the time (recommended).
+### 2. Connect Device
+Plug in your MusicBox device via USB. It will connect automatically.
 
-### System Tray Controls
-Access MusicBox from your system tray to:
-- View current track and system status
-- Restart the service if needed
-- Access log files for troubleshooting
-- Toggle auto-start with Windows
-- Exit the application
+### 3. Play Music
+Start playing music in any supported app. Your display updates in real-time!
+
+📖 Need help or want detailed instructions? [Read the Complete Guide](GUIDE.md)
+
+---
+
+## Frequently Asked Questions
+
+### Do I need to install anything?
+No! MusicBox is completely portable. Just download and run—no installation required.
+
+### Which music apps work?
+Any app that uses your system's media controls: Spotify, Chrome (YouTube, Spotify Web), VLC, Windows Media Player, iTunes, and many more.
+
+### What hardware do I need?
+You need a MusicBox device. Check the [hardware guide](GUIDE.md#hardware-setup) for more details about connecting your device.
+
+### Which platforms are supported?
+Currently Windows and Linux. macOS support is coming soon.
+
+### Device won't connect?
+Click "Auto-Detect" in the Config tab. Make sure you're using a data-capable USB cable (not charging-only). See the [guide](GUIDE.md) for more troubleshooting.
+
+### Where can I get help?
+Check the [user guide](GUIDE.md) for instructions. For support, use "View Logs" in the app and contact us with your log files.
+
+---
 
 ## Download MusicBox
 
-Choose your platform and get started in seconds:
-
 ### 🪟 Windows
-**[Download for Windows](https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/windows/MusicBox.exe)**
+[Download MusicBox.exe](https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/windows/MusicBox.exe)
 Portable .exe • Windows 10/11
 
 ### 🍎 macOS
 Coming Soon
 
 ### 🐧 Linux
-**[Download for Linux](https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/linux/MusicBox)**
+[Download MusicBox](https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/linux/MusicBox)
 Executable • Ubuntu/Debian
+
+**System Requirements:** Windows 10/11 or Linux • MusicBox device • USB connection
 
 ---
 
-*Elevate Your Music Experience*
+## Links
 
-© 2024 MusicBox. ESP32-S3 Music Display System.
+- [User Guide](GUIDE.md)
+- [Hardware Setup](GUIDE.md#hardware-setup)
+
+---
+
+© 2024 MusicBox. Music Display System.
+
+*Elevate Your Music Experience*
