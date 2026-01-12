@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MusicBox - ESP32-S3 Music Display System</title>
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="MusicBox - A dedicated hardware display that shows what's playing in real-time. Works with Spotify, YouTube, VLC, and all your favorite apps.">
+    <title>MusicBox - Music Display System</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="alternate" hreflang="uk" href="index-uk.html">
+    <link rel="alternate" hreflang="en" href="index.html">
 </head>
 <body>
+    <!-- Language Switcher -->
+    <nav class="lang-switcher" aria-label="Language selection">
+        <a href="index.html" class="active" lang="en" hreflang="en">EN</a>
+        <a href="index-uk.html" lang="uk" hreflang="uk">UA</a>
+    </nav>
+
     <!-- Hero Section -->
     <header class="hero">
         <div class="hero-background"></div>
         <div class="container">
             <div class="hero-content">
                 <h1 class="glitch" data-text="MusicBox">MusicBox</h1>
-                <p class="tagline">ESP32-S3 Music Display System</p>
-                <p class="description">Transform your music listening experience with a beautiful, real-time display that shows what's playing across all your favorite apps - Spotify, Chrome, VLC, and more.</p>
+                <p class="tagline">Your music – simply, lovely, beautifully</p>
+                <p class="description">A dedicated hardware display that shows what's playing in real-time. Works with Spotify, YouTube, VLC, and all your favorite apps.</p>
                 <div class="hero-cta">
-                    <a href="#download" class="cta-button">Get Started</a>
+                    <a href="#download" class="cta-button primary-cta">Download Now</a>
+                    <a href="guide.html" class="cta-button secondary-cta">Read the Guide</a>
                 </div>
             </div>
         </div>
@@ -31,92 +42,151 @@
             <div class="gallery">
                 <div class="gallery-item gallery-large">
                     <div class="gallery-image">
-                        <img src="images/8.png" alt="MusicBox Featured View">
+                        <img src="images/8.png" alt="MusicBox display showing current track">
                         <div class="gallery-content">
-                            <h3>Featured View</h3>
-                            <p>Main product showcase</p>
+                            <h3>Always Know What's Playing</h3>
+                            <p>See track info at a glance</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="gallery-item">
                     <div class="gallery-image">
-                        <img src="images/2.png" alt="MusicBox Display in Action">
+                        <img src="images/2.png" alt="MusicBox device on desk">
                         <div class="gallery-content">
-                            <h3>Display in Action</h3>
-                            <p>Real-time music tracking</p>
+                            <h3>On Your Desk</h3>
+                            <p>Compact and stylish</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="gallery-item">
                     <div class="gallery-image">
-                        <img src="images/4.png" alt="MusicBox Setup & Connection">
+                        <img src="images/4.png" alt="MusicBox connected via USB">
                         <div class="gallery-content">
-                            <h3>Setup & Connection</h3>
-                            <p>Easy plug-and-play installation</p>
+                            <h3>Simple Connection</h3>
+                            <p>Just plug in via USB</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="gallery-item">
                     <div class="gallery-image">
-                        <img src="images/3.png" alt="MusicBox Hardware Details">
+                        <img src="images/3.png" alt="MusicBox hardware device">
                         <div class="gallery-content">
-                            <h3>Hardware Details</h3>
-                            <p>ESP32-S3 & TFT display</p>
+                            <h3>Quality Hardware</h3>
+                            <p>Built to last</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="gallery-item">
                     <div class="gallery-image">
-                        <img src="images/1.png" alt="MusicBox Desktop Integration">
+                        <img src="images/1.png" alt="MusicBox app interface">
                         <div class="gallery-content">
-                            <h3>Desktop Integration</h3>
-                            <p>System tray & controls</p>
+                            <h3>Easy to Use</h3>
+                            <p>Simple app interface</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="gallery-item">
                     <div class="gallery-image">
-                        <img src="images/9.png" alt="MusicBox Beautiful UI">
+                        <img src="images/9.png" alt="MusicBox showing album art">
                         <div class="gallery-content">
-                            <h3>Beautiful UI</h3>
-                            <p>Clean, modern interface</p>
+                            <h3>Beautiful Display</h3>
+                            <p>Vibrant colors and clarity</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="gallery-item">
                     <div class="gallery-image">
-                        <img src="images/7.png" alt="MusicBox Additional View">
+                        <img src="images/7.png" alt="MusicBox in workspace">
                         <div class="gallery-content">
-                            <h3>In Your Space</h3>
-                            <p>Fits any environment</p>
+                            <h3>Perfect for Any Setup</h3>
+                            <p>Fits your workspace style</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="gallery-item">
                     <div class="gallery-image">
-                        <img src="images/5.png" alt="MusicBox Extra View">
+                        <img src="images/5.png" alt="MusicBox close-up view">
                         <div class="gallery-content">
-                            <h3>More Views</h3>
-                            <p>See more angles</p>
+                            <h3>Sleek Design</h3>
+                            <p>Modern and minimal</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="gallery-item">
                     <div class="gallery-image">
-                        <img src="images/6.png" alt="MusicBox Additional View">
+                        <img src="images/6.png" alt="MusicBox with lighting">
                         <div class="gallery-content">
-                            <h3>Perfect Fit</h3>
-                            <p>Seamless integration</p>
+                            <h3>Works Anywhere</h3>
+                            <p>Day or night visibility</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is MusicBox Section -->
+    <section class="about-program">
+        <div class="container">
+            <h2>What is MusicBox?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead-text">MusicBox is a desktop application that works with your MusicBox hardware device to create a beautiful, dedicated music display. See what's playing without alt-tabbing or cluttering your screen.</p>
+
+                    <div class="value-props">
+                        <div class="value-prop">
+                            <div class="value-icon">🎵</div>
+                            <div>
+                                <h3>Universal Compatibility</h3>
+                                <p>Works automatically with Spotify, YouTube, Chrome, VLC, and any app that uses your system's media controls. No manual configuration needed.</p>
+                            </div>
+                        </div>
+
+                        <div class="value-prop">
+                            <div class="value-icon">⚡</div>
+                            <div>
+                                <h3>Plug & Play Setup</h3>
+                                <p>Connect your MusicBox device via USB and run the app. It automatically detects your device and starts displaying your music. That's it.</p>
+                            </div>
+                        </div>
+
+                        <div class="value-prop">
+                            <div class="value-icon">🖥️</div>
+                            <div>
+                                <h3>Runs in Background</h3>
+                                <p>The app lives in your system tray, quietly sending track information to your display in real-time. Optionally starts with your computer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who It's For Section -->
+    <section class="marketing">
+        <div class="container">
+            <h2>Who is MusicBox For?</h2>
+            <div class="marketing-content">
+                <div class="marketing-item">
+                    <h3>🎧 Music Lovers</h3>
+                    <p>Stop alt-tabbing to check what's playing. Get a dedicated hardware display showing your current track in real-time—artist, title, and progress—all at a glance without interrupting your flow.</p>
+                </div>
+                <div class="marketing-item">
+                    <h3>💻 Desk Setup Enthusiasts</h3>
+                    <p>The perfect addition to your minimalist workspace. A sleek, compact display that complements your keyboard and monitor. Clean cable management with a single USB connection.</p>
+                </div>
+                <div class="marketing-item">
+                    <h3>🎮 Gamers & Streamers</h3>
+                    <p>Keep your eyes on the game while music info stays visible on a separate display. Perfect for streamers who want viewers to see what's playing without screen overlays.</p>
                 </div>
             </div>
         </div>
@@ -125,127 +195,67 @@
     <!-- Features Section -->
     <section class="features">
         <div class="container">
-            <h2>Key Features</h2>
+            <h2>Features</h2>
             <div class="features-grid">
                 <div class="feature">
                     <div class="feature-icon">🔍</div>
                     <h3>Auto-Detect ESP32</h3>
-                    <p>Automatically finds and connects to your device - no configuration needed</p>
+                    <p>Automatically finds and connects to your device when you plug it in—no port configuration needed</p>
                 </div>
                 <div class="feature">
                     <div class="feature-icon">⚡</div>
                     <h3>Zero Config</h3>
-                    <p>Just run and forget - works out of the box with no setup required</p>
+                    <p>Just run and forget—works out of the box with no setup required</p>
                 </div>
                 <div class="feature">
                     <div class="feature-icon">🎵</div>
                     <h3>Universal Support</h3>
-                    <p>Works with Spotify, Chrome, VLC, and any app that supports Windows media controls</p>
+                    <p>Works with Spotify, Chrome, VLC, and any app using system media controls</p>
                 </div>
                 <div class="feature">
                     <div class="feature-icon">🖥️</div>
                     <h3>System Tray Integration</h3>
-                    <p>Runs quietly in the background with easy access from system tray</p>
+                    <p>Runs quietly in the background with easy access from your system tray</p>
                 </div>
                 <div class="feature">
                     <div class="feature-icon">🚀</div>
                     <h3>Auto-Start</h3>
-                    <p>Optional startup with Windows - set it once and never think about it again</p>
+                    <p>Optionally starts with your computer—set it once and never think about it again</p>
                 </div>
                 <div class="feature">
                     <div class="feature-icon">📦</div>
-                    <h3>Portable</h3>
-                    <p>Single .exe file with no installation required - completely portable</p>
+                    <h3>Fully Portable</h3>
+                    <p>Single executable file with no installation—run from anywhere</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Marketing Section -->
-    <section class="marketing">
+    <!-- Quick Start Section -->
+    <section class="quick-start">
         <div class="container">
-            <h2>Why MusicBox?</h2>
-            <div class="marketing-content">
-                <div class="marketing-item">
-                    <h3>For Music Lovers</h3>
-                    <p>Stop alt-tabbing to check what's playing. MusicBox gives you a dedicated hardware display showing your current track in real-time. Whether it's Spotify, YouTube, or any media player—see artist names, track titles, and album info at a glance without interrupting your flow.</p>
-                </div>
-                <div class="marketing-item">
-                    <h3>For Tech Enthusiasts</h3>
-                    <p>The perfect addition to your minimalist desk setup. A sleek, compact display that sits beautifully alongside your keyboard and monitor, showing what's playing without cluttering your main screens. Clean cable management with a single USB connection—fits naturally into any modern workspace aesthetic.</p>
-                </div>
-                <div class="marketing-item">
-                    <h3>For Gamers</h3>
-                    <p>Keep your eyes on the game while your music info stays visible on a separate physical display. Perfect for streamers who want viewers to see what's playing without screen overlays cluttering your gameplay. Clean setup, professional look, zero performance impact.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Instructions Section -->
-    <section class="instructions">
-        <div class="container">
-            <h2>How to Use</h2>
+            <h2>Get Started in 3 Steps</h2>
             <div class="steps">
                 <div class="step">
                     <div class="step-number">1</div>
-                    <h3>Download the Client</h3>
-                    <p>Choose your operating system and download the MusicBox client application. The Windows version is ready now, with macOS and Linux coming soon.</p>
+                    <h3>Download & Run</h3>
+                    <p>Download the app for your platform and double-click to run. No installation needed.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
-                    <h3>Connect Your ESP32-S3</h3>
-                    <p>Plug in your MusicBox ESP32-S3 device via USB. The client will automatically detect and connect to it. No drivers or configuration needed!</p>
+                    <h3>Connect Device</h3>
+                    <p>Plug in your MusicBox device via USB. It will connect automatically.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
-                    <h3>Run and Enjoy</h3>
-                    <p>Double-click the downloaded file to launch MusicBox. It will run in your system tray and automatically track whatever music you're playing. That's it!</p>
+                    <h3>Play Music</h3>
+                    <p>Start playing music in any supported app. Your display updates in real-time!</p>
                 </div>
             </div>
 
-            <div class="additional-info">
-                <h3>First Run Setup</h3>
-                <p>On first launch, MusicBox will ask if you want to start automatically with Windows. Choose yes if you want it to run in the background all the time (recommended).</p>
-
-                <h3>System Tray Controls</h3>
-                <p>Access MusicBox from your system tray to:</p>
-                <ul>
-                    <li>View current track and system status</li>
-                    <li>Restart the service if needed</li>
-                    <li>Access log files for troubleshooting</li>
-                    <li>Toggle auto-start with Windows</li>
-                    <li>Exit the application</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- About the Program Section -->
-    <section class="about-program">
-        <div class="container">
-            <h2>About MusicBox</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>What is MusicBox?</h3>
-                    <p>MusicBox is a desktop application that displays your currently playing music on a beautiful external hardware display. It automatically detects what's playing on your computer - whether it's Spotify, YouTube in your browser, VLC, or any other media player - and sends that information to your dedicated MusicBox device.</p>
-
-                    <h3>How Does It Work?</h3>
-                    <p>Simply plug in your MusicBox device via USB, run the application, and start playing music. The app runs quietly in your system tray and automatically updates the display with track information, artist names, and playback status. No configuration needed - it just works!</p>
-
-                    <h3>Key Highlights</h3>
-                    <ul class="highlights-list">
-                        <li>✓ Plug & play - automatic device detection</li>
-                        <li>✓ Works with all major media players</li>
-                        <li>✓ Runs in the background with system tray integration</li>
-                        <li>✓ Real-time track updates</li>
-                        <li>✓ Optional auto-start with your computer</li>
-                    </ul>
-
-                    <div class="guide-button-wrapper">
-                        <a href="guide.html" class="guide-button">📖 Read the Full Guide</a>
-                    </div>
-                </div>
+            <div class="guide-cta">
+                <p>Need help or want detailed instructions?</p>
+                <a href="guide.html" class="guide-button">📖 Read the Complete Guide</a>
             </div>
         </div>
     </section>
@@ -257,32 +267,32 @@
             <div class="faq-grid">
                 <div class="faq-item">
                     <h3>Do I need to install anything?</h3>
-                    <p>No! MusicBox is completely portable. Just download the executable file and run it - no installation required.</p>
+                    <p>No! MusicBox is completely portable. Just download and run—no installation required.</p>
                 </div>
 
                 <div class="faq-item">
-                    <h3>Which music apps are supported?</h3>
-                    <p>MusicBox works with any application that uses your system's media controls, including Spotify, Chrome (YouTube, Spotify Web), VLC, Windows Media Player, and many more!</p>
+                    <h3>Which music apps work?</h3>
+                    <p>Any app that uses your system's media controls: Spotify, Chrome (YouTube, Spotify Web), VLC, Windows Media Player, iTunes, and many more.</p>
                 </div>
 
                 <div class="faq-item">
-                    <h3>Will this work with my ESP32?</h3>
-                    <p>MusicBox is designed for ESP32-S3 boards with compatible TFT displays. Check the guide for specific hardware requirements.</p>
+                    <h3>What hardware do I need?</h3>
+                    <p>You need a MusicBox device. Check the <a href="guide.html#hardware-setup">hardware guide</a> for more details about connecting your device.</p>
                 </div>
 
                 <div class="faq-item">
-                    <h3>Does it run in the background?</h3>
-                    <p>Yes! MusicBox runs in your system tray and can automatically start when your computer boots. You can access it anytime by clicking the tray icon.</p>
+                    <h3>Which platforms are supported?</h3>
+                    <p>Currently Windows and Linux. macOS support is coming soon.</p>
                 </div>
 
                 <div class="faq-item">
-                    <h3>What if the device doesn't connect?</h3>
-                    <p>MusicBox auto-detects your device, but if it doesn't connect, simply click the "Auto-Detect" button in the Config tab. Make sure you're using a data-capable USB cable!</p>
+                    <h3>Device won't connect?</h3>
+                    <p>Click "Auto-Detect" in the Config tab. Make sure you're using a data-capable USB cable (not charging-only). See the <a href="guide.html">guide</a> for more troubleshooting.</p>
                 </div>
 
                 <div class="faq-item">
                     <h3>Where can I get help?</h3>
-                    <p>Check out the <a href="guide.html">user guide</a> for detailed instructions. If you need additional support, use the "View Logs" feature in the app and send us your log files.</p>
+                    <p>Check the <a href="guide.html">user guide</a> for instructions. For support, use "View Logs" in the app and contact us with your log files.</p>
                 </div>
             </div>
         </div>
@@ -319,14 +329,27 @@
                     </div>
                 </a>
             </div>
+
+            <p class="system-requirements">
+                <strong>System Requirements:</strong> Windows 10/11 or Linux • MusicBox device • USB connection
+            </p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 MusicBox. ESP32-S3 Music Display System.</p>
-            <p class="tagline-footer">Elevate Your Music Experience</p>
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="guide.html">User Guide</a>
+                    <span class="separator">•</span>
+                    <a href="guide.html#hardware-setup">Hardware Setup</a>
+                    <span class="separator">•</span>
+                    <a href="#faq">FAQ</a>
+                </div>
+                <p>&copy; 2024 MusicBox. Music Display System.</p>
+                <p class="tagline-footer">Elevate Your Music Experience</p>
+            </div>
         </div>
     </footer>
 </body>
