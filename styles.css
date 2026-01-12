@@ -232,7 +232,7 @@ body {
     animation: fadeInUp 1s ease-out;
 }
 
-.hero h1.glitch {
+h1.glitch {
     font-size: 7rem;
     font-weight: 900;
     color: white;
@@ -683,7 +683,6 @@ section h2::after {
 .marketing-item h3 {
     font-size: 2rem;
     margin-bottom: 25px;
-    color: white;
     font-weight: 700;
     background: linear-gradient(135deg, #fff 0%, #f093fb 100%);
     -webkit-background-clip: text;
@@ -1627,9 +1626,6 @@ footer p {
     text-align: center;
     margin-top: 60px;
     padding: 40px;
-    background: var(--bg-card);
-    border-radius: 20px;
-    border: 1px solid var(--border-accent);
 }
 
 .guide-cta p {
@@ -1788,7 +1784,7 @@ html {
 
 /* Responsive Design */
 @media (max-width: 1200px) {
-    .hero h1.glitch {
+    h1.glitch {
         font-size: 5rem;
     }
 
@@ -1821,7 +1817,7 @@ html {
         padding: 80px 20px;
     }
 
-    .hero h1.glitch {
+    h1.glitch {
         font-size: 3.5rem;
     }
 
@@ -2008,7 +2004,7 @@ html {
         min-height: 90vh;
     }
 
-    .hero h1.glitch {
+    h1.glitch {
         font-size: 2.5rem;
     }
 
