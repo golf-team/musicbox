@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="MusicBox User Guide - Complete setup instructions and troubleshooting for your MusicBox device.">
+    <title>MusicBox - User Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="alternate" hreflang="uk" href="guide-uk.html">
+    <link rel="alternate" hreflang="en" href="guide.html">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <nav class="lang-switcher" aria-label="Language selection">
+        <a href="guide.html" class="active" lang="en" hreflang="en">EN</a>
+        <a href="guide-uk.html" lang="uk" hreflang="uk">UA</a>
+    </nav>
+
+    <!-- Navigation -->
+    <nav class="guide-nav">
+        <div class="container">
+            <a href="index.html" class="nav-back">← Back to Home</a>
+            <h1 class="nav-title">User Guide</h1>
+        </div>
+    </nav>
+
+    <!-- Guide Introduction -->
+    <section class="guide-intro">
+        <div class="container">
+            <h1 class="glitch">Welcome to MusicBox</h1>
+            <p class="intro-text">This guide will help you set up and use your MusicBox system. Whether you're setting up for the first time or need help troubleshooting, you'll find everything you need here.</p>
+
+            <div class="quick-links">
+                <h3>Jump to Section</h3>
+                <div class="links-grid">
+                    <a href="#software-setup" class="quick-link">
+                        <span class="link-icon">💻</span>
+                        <span>Software Setup</span>
+                    </a>
+                    <a href="#hardware-setup" class="quick-link">
+                        <span class="link-icon">🔧</span>
+                        <span>Hardware Setup</span>
+                    </a>
+                    <a href="#using-app" class="quick-link">
+                        <span class="link-icon">📱</span>
+                        <span>Using the App</span>
+                    </a>
+                    <a href="#troubleshooting" class="quick-link">
+                        <span class="link-icon">🔍</span>
+                        <span>Troubleshooting</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- System Requirements -->
+    <section class="guide-section requirements-section">
+        <div class="container">
+            <h2>System Requirements</h2>
+            <div class="guide-content">
+                <div class="requirements-grid">
+                    <div class="requirement-item">
+                        <h3>💻 Computer</h3>
+                        <ul>
+                            <li>Windows 10/11 or Linux (Ubuntu/Debian)</li>
+                            <li>macOS support coming soon</li>
+                            <li>USB port available</li>
+                        </ul>
+                    </div>
+                    <div class="requirement-item">
+                        <h3>🔌 Hardware</h3>
+                        <ul>
+                            <li>MusicBox device</li>
+                            <li>USB cable (data-capable)</li>
+                        </ul>
+                    </div>
+                    <div class="requirement-item">
+                        <h3>🎵 Media Apps</h3>
+                        <ul>
+                            <li>Spotify, YouTube, VLC, etc.</li>
+                            <li>Any app with system media controls</li>
+                            <li>No special setup needed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Software Setup -->
+    <section class="guide-section software-section" id="software-setup">
+        <div class="container">
+            <h2>Software Setup</h2>
+            <p class="section-subtitle">Install and configure the MusicBox application</p>
+
+            <div class="guide-content">
+                <div class="guide-item">
+                    <h3>Step 1: Download & Install</h3>
+                    <div class="guide-steps">
+                        <div class="guide-step">
+                            <span class="step-badge">Download</span>
+                            <div class="step-content">
+                                <h4>Get the Application</h4>
+                                <p><strong>Windows:</strong> <a href="https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/windows/MusicBox.exe" download>Download MusicBox.exe</a></p>
+                                <p><strong>Linux:</strong> <a href="https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/linux/MusicBox" download>Download MusicBox executable</a></p>
+                                <p>No installation needed—the app is completely portable!</p>
+                            </div>
+                        </div>
+
+                        <div class="guide-step">
+                            <span class="step-badge">Run</span>
+                            <div class="step-content">
+                                <h4>Launch the App</h4>
+                                <p><strong>Windows:</strong> Simply double-click MusicBox.exe</p>
+                                <p><strong>Linux:</strong> Make the file executable first:</p>
+                                <pre><code>chmod +x MusicBox
+./MusicBox</code></pre>
+                                <p>The app will open and appear in your system tray.</p>
+                            </div>
+                        </div>
+
+                        <div class="guide-step">
+                            <span class="step-badge">Setup</span>
+                            <div class="step-content">
+                                <h4>First Launch Configuration</h4>
+                                <p>On first launch, you'll be asked if you want MusicBox to start automatically with your computer. We recommend selecting "Yes" for the best experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guide-item" id="using-app">
+                    <h3>Step 2: Using the Application</h3>
+                    <p class="guide-intro-text">MusicBox has three main tabs that help you monitor, configure, and debug your setup.</p>
+
+                    <div class="feature-section">
+                        <h4>📊 Status Tab</h4>
+                        <div class="screenshot-placeholder">
+                            <img src="images/guides/status.png" alt="MusicBox Status Tab showing currently playing track">
+                            <p class="screenshot-caption">The Status tab displays your currently playing music</p>
+                        </div>
+                        <p>View what's currently playing on your MusicBox display:</p>
+                        <ul>
+                            <li><strong>Track Title:</strong> The name of the current song</li>
+                            <li><strong>Artist Name:</strong> Who performs the song</li>
+                            <li><strong>Playback Time:</strong> Current position and total duration</li>
+                            <li><strong>Status:</strong> Shows if music is Playing, Paused, or Stopped</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-section">
+                        <h4>⚙️ Config Tab</h4>
+                        <div class="screenshot-placeholder">
+                            <img src="images/guides/configuration.png" alt="MusicBox Config Tab with device settings">
+                            <p class="screenshot-caption">Configure your device and application settings</p>
+                        </div>
+                        <p>Manage your device and application settings:</p>
+                        <ul>
+                            <li><strong>Current Port:</strong> Shows which USB port your device is connected to</li>
+                            <li><strong>Change Port:</strong> Manually select a different USB port if needed</li>
+                            <li><strong>Auto-Detect:</strong> Automatically find and connect to your MusicBox device</li>
+                            <li><strong>Launch at Startup:</strong> Toggle automatic startup with your computer</li>
+                        </ul>
+                        <p class="tip"><strong>Tip:</strong> If your device isn't connecting, try clicking "Auto-Detect" first!</p>
+                    </div>
+
+                    <div class="feature-section">
+                        <h4>🔧 Debug Tab</h4>
+                        <div class="screenshot-placeholder">
+                            <img src="images/guides/debug_1.png" alt="MusicBox Debug Tab with system information">
+                            <p class="screenshot-caption">Debug information and troubleshooting tools</p>
+                        </div>
+                        <div class="screenshot-placeholder">
+                            <img src="images/guides/debug_2.png" alt="MusicBox Debug Tab with connection details">
+                            <p class="screenshot-caption">Connection debug information and last sent data</p>
+                        </div>
+                        <p>Access system information and troubleshooting tools:</p>
+                        <ul>
+                            <li><strong>System Information:</strong> App version, Python version, memory usage</li>
+                            <li><strong>Queue Size:</strong> Number of pending messages</li>
+                            <li><strong>Connection Debug:</strong> Real-time connection status messages</li>
+                            <li><strong>Last Sent Data:</strong> JSON data sent to your device</li>
+                            <li><strong>Restart Service:</strong> Restart the connection if something goes wrong</li>
+                            <li><strong>View Logs:</strong> Open the folder containing detailed log files</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hardware Setup -->
+    <section class="guide-section device-guide" id="hardware-setup">
+        <div class="container">
+            <h2>Hardware Setup</h2>
+            <p class="section-subtitle">Connect and configure your MusicBox device</p>
+
+            <div class="guide-content">
+                <div class="guide-item">
+                    <h3>What You Need</h3>
+                    <div class="hardware-list">
+                        <div class="hardware-item">
+                            <h4>✓ MusicBox Device</h4>
+                            <p>Your MusicBox device</p>
+                        </div>
+
+                        <div class="hardware-item">
+                            <h4>✓ Type-C USB Cable</h4>
+                            <p>A Type-C USB cable that supports data transfer (not charging-only).</p>
+                        </div>
+
+                        <div class="hardware-item">
+                            <h4>✓ Computer</h4>
+                            <p>Windows or Linux computer with an available USB port</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guide-item">
+                    <h3>Connection Steps</h3>
+                    <div class="guide-steps">
+                        <div class="guide-step">
+                            <span class="step-badge">1 – Connect the Device</span>
+                            <div class="step-content">
+                                <p>Plug your MusicBox device into your computer using the USB cable. The device should power on and the display should light up.</p>
+                            </div>
+                        </div>
+
+                        <div class="guide-step">
+                            <span class="step-badge">2 – Launch the Application</span>
+                            <div class="step-content">
+                                <p>Open the MusicBox application. It will automatically search for and connect to your device.</p>
+                            </div>
+                        </div>
+
+                        <div class="guide-step">
+                            <span class="step-badge">3 – Verify Connection</span>
+                            <div class="step-content">
+                                <p>Open the Config tab in the app. You should see your device port displayed (like "COM3" on Windows or "/dev/ttyUSB0" on Linux).</p>
+                            </div>
+                        </div>
+
+                        <div class="guide-step">
+                            <span class="step-badge">4 – Test It Out</span>
+                            <div class="step-content">
+                                <p>Play some music in Spotify, YouTube, or any other supported app. Your MusicBox display should start showing the track information!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Troubleshooting -->
+    <section class="guide-section troubleshooting-section" id="troubleshooting">
+        <div class="container">
+            <h2>Troubleshooting</h2>
+            <p class="section-subtitle">Solutions to common problems</p>
+
+            <div class="guide-content">
+                <div class="troubleshoot-section">
+                    <div class="troubleshoot-item">
+                        <h4>🔌 Device Won't Connect</h4>
+                        <div class="screenshot-placeholder">
+                            <img src="images/guides/configuration_no_device.png" alt="MusicBox Config Tab showing no device connected">
+                            <p class="screenshot-caption">Config tab when no device is detected</p>
+                        </div>
+                        <p><strong>Try these solutions in order:</strong></p>
+                        <ol>
+                            <li>Click the <strong>"Auto-Detect"</strong> button in the Config tab</li>
+                            <li>Check that the USB cable supports data transfer (not just charging)</li>
+                            <li>Try a different USB port on your computer</li>
+                            <li>Unplug the device, wait 5 seconds, and plug it back in</li>
+                            <li>Click <strong>"Restart Service"</strong> in the Debug tab</li>
+                            <li>Close and reopen the MusicBox application</li>
+                        </ol>
+                        <div class="screenshot-placeholder">
+                            <img src="images/guides/select_port.png" alt="MusicBox port selection dialog">
+                            <p class="screenshot-caption">Manually select a port if Auto-Detect doesn't work</p>
+                        </div>
+                    </div>
+
+                    <div class="troubleshoot-item">
+                        <h4>🎵 Music Not Displaying</h4>
+                        <p><strong>Check these items:</strong></p>
+                        <ul>
+                            <li>Verify that music is actually playing in a supported application</li>
+                            <li>Check that your device is connected (see Config tab)</li>
+                            <li>Ensure your media player uses system media controls (most do)</li>
+                            <li>Try pausing and resuming playback</li>
+                            <li>Restart both MusicBox and your media player</li>
+                        </ul>
+                    </div>
+
+                    <div class="troubleshoot-item">
+                        <h4>💻 Application Won't Start</h4>
+                        <ul>
+                            <li><strong>Windows:</strong> Try running as administrator (right-click → Run as administrator)</li>
+                            <li><strong>Linux:</strong> Make sure the file has executable permissions (<code>chmod +x MusicBox</code>)</li>
+                            <li>Check if antivirus software is blocking the application</li>
+                            <li>Check the log files for error messages (see below)</li>
+                        </ul>
+                    </div>
+
+                    <div class="troubleshoot-item">
+                        <h4>⚠️ Display Showing Wrong Information</h4>
+                        <ul>
+                            <li>Check the Status tab to see what MusicBox thinks is playing</li>
+                            <li>Make sure only one media app is playing at a time</li>
+                            <li>Click "Restart Service" in the Debug tab</li>
+                            <li>Close other media apps that might be interfering</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="guide-item support-section">
+                    <h3>📧 Getting Help</h3>
+                    <div class="help-section">
+                        <h4>If You Still Need Help</h4>
+                        <p>If none of the above solutions work, we're here to help! Follow these steps:</p>
+
+                        <ol>
+                            <li><strong>Get Your Log Files:</strong> Open the MusicBox app and go to the Debug tab. Click the <strong>"View Logs"</strong> button. This will open the folder containing your log files.</li>
+                            <li><strong>Note the Problem:</strong> Write down exactly what you were doing when the problem occurred and what happened.</li>
+                            <li><strong>Contact Us:</strong> Send us the information using one of these methods:</li>
+                        </ol>
+
+                        <div class="screenshot-placeholder">
+                            <img src="images/guides/logs.png" alt="MusicBox logs folder with log files">
+                            <p class="screenshot-caption">Log files folder opened via the Debug tab</p>
+                        </div>
+
+                        <div class="contact-methods">
+                            <div class="contact-box">
+                                <h4>📧 Email Support</h4>
+                                <p>Send your log files and problem description to:</p>
+                                <p class="contact-link"><a href="mailto:golfteam.info@gmail.com">golfteam.info@gmail.com</a></p>
+                            </div>
+
+                            <div class="contact-box">
+                                <h4>📝 Support Form</h4>
+                                <p>Fill out our online support form:</p>
+                                <p class="contact-link"><a href="https://forms.gle/xaKGrrvCivJgm5dHA" target="_blank">Submit Support Request</a></p>
+                            </div>
+                        </div>
+
+                        <p class="support-note"><strong>Note:</strong> Please include your log files when contacting support—they help us diagnose the issue much faster!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <span class="separator">•</span>
+                    <a href="index.html#download">Download</a>
+                    <span class="separator">•</span>
+                    <a href="index.html#faq">FAQ</a>
+                </div>
+                <p>&copy; 2024 MusicBox. Music Display System.</p>
+                <p class="tagline-footer">Elevate Your Music Experience</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
