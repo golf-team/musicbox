@@ -85,7 +85,7 @@ Any app that uses your system's media controls: Spotify, Chrome (YouTube, Spotif
 You need a MusicBox device. Check the [hardware guide](GUIDE.md#hardware-setup) for more details about connecting your device.
 
 ### Which platforms are supported?
-Currently Windows and Linux. macOS support is coming soon.
+Windows, macOS, and Linux are all fully supported.
 
 ### Device won't connect?
 Click "Auto-Detect" in the Config tab. Make sure you're using a data-capable USB cable (not charging-only). See the [guide](GUIDE.md) for more troubleshooting.
@@ -102,7 +102,8 @@ Check the [user guide](GUIDE.md) for instructions. For support, use "View Logs" 
 Portable .exe • Windows 10/11
 
 ### 🍎 macOS
-Coming Soon
+[Download MusicBox.dmg](https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/macos/MusicBox.dmg)
+App Bundle • macOS 11+
 
 ### 🐧 Linux
 [Download MusicBox](https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/linux/MusicBox)

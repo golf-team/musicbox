@@ -19,8 +19,7 @@ This guide will help you set up and use your MusicBox system. Whether you're set
 ## System Requirements
 
 ### 💻 Computer
-- Windows 10/11 or Linux (Ubuntu/Debian)
-- macOS support coming soon
+- Windows 10/11, macOS 11+, or Linux (Ubuntu/Debian)
 - USB port available
 
 ### 🔌 Hardware
