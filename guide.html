@@ -103,6 +103,7 @@
                             <div class="step-content">
                                 <h4>Get the Application</h4>
                                 <p><strong>Windows:</strong> <a href="https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/windows/MusicBox.exe" download>Download MusicBox.exe</a></p>
+                                <p><strong>macOS:</strong> <a href="https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/macos/MusicBox.dmg" download>Download MusicBox.dmg</a></p>
                                 <p><strong>Linux:</strong> <a href="https://github.com/golf-team/musicbox-releases/raw/refs/heads/main/linux/MusicBox" download>Download MusicBox executable</a></p>
                                 <p>No installation needed—the app is completely portable!</p>
                             </div>
@@ -113,6 +114,7 @@
                             <div class="step-content">
                                 <h4>Launch the App</h4>
                                 <p><strong>Windows:</strong> Simply double-click MusicBox.exe</p>
+                                <p><strong>macOS:</strong> Open the DMG, drag MusicBox to Applications, then launch it. See <a href="#macos-gatekeeper">macOS security note</a> below if you get a warning.</p>
                                 <p><strong>Linux:</strong> Make the file executable first:</p>
                                 <pre><code>chmod +x MusicBox
 ./MusicBox</code></pre>
@@ -294,10 +296,26 @@
                         </ul>
                     </div>
 
+                    <div class="troubleshoot-item" id="macos-gatekeeper">
+                        <h4>🍎 macOS: "MusicBox cannot be opened" Warning</h4>
+                        <div class="screenshot-placeholder">
+                            <img src="images/guides/macos_issues.png" alt="macOS Privacy & Security settings showing Open Anyway button">
+                            <p class="screenshot-caption">Click "Open Anyway" in Privacy & Security settings</p>
+                        </div>
+                        <p><strong>This is normal!</strong> macOS shows this warning for apps downloaded from the internet that aren't signed with an Apple Developer certificate.</p>
+                        <p><strong>Solution (choose one):</strong></p>
+                        <ol>
+                            <li><strong>Right-click method:</strong> Right-click (or Control-click) on MusicBox.app and select "Open", then click "Open" in the dialog</li>
+                            <li><strong>System Settings method:</strong> Go to System Settings → Privacy & Security → scroll down to Security section → click "Open Anyway" next to the MusicBox message</li>
+                        </ol>
+                        <p class="tip"><strong>Note:</strong> You only need to do this once. After the first launch, MusicBox will open normally.</p>
+                    </div>
+
                     <div class="troubleshoot-item">
                         <h4>💻 Application Won't Start</h4>
                         <ul>
                             <li><strong>Windows:</strong> Try running as administrator (right-click → Run as administrator)</li>
+                            <li><strong>macOS:</strong> See the <a href="#macos-gatekeeper">macOS security warning</a> section above</li>
                             <li><strong>Linux:</strong> Make sure the file has executable permissions (<code>chmod +x MusicBox</code>)</li>
                             <li>Check if antivirus software is blocking the application</li>
                             <li>Check the log files for error messages (see below)</li>
