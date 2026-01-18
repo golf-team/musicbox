@@ -1652,18 +1652,6 @@ footer p {
     box-shadow: 0 15px 60px var(--shadow-glow);
 }
 
-/* System Requirements in Download */
-.system-requirements {
-    text-align: center;
-    margin-top: 40px;
-    color: var(--text-secondary);
-    font-size: 1.05rem;
-}
-
-.system-requirements strong {
-    color: var(--text-primary);
-}
-
 /* Footer Improvements */
 .footer-content {
     text-align: center;
@@ -2262,10 +2250,6 @@ html {
     }
 
     .download-subtitle {
-        color: var(--text-secondary);
-    }
-
-    .system-requirements {
         color: var(--text-secondary);
     }
 
